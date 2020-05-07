@@ -15,6 +15,7 @@
 		AC27516E212BE061003B7C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27516D212BE061003B7C6A /* main.m */; };
 		AC275178212BE061003B7C6A /* SGKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC275177212BE061003B7C6A /* SGKVOTests.m */; };
 		AC275183212BE061003B7C6A /* SGKVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC275182212BE061003B7C6A /* SGKVOUITests.m */; };
+		AC40846E2464109C003E13D6 /* SGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AC40846D2464109C003E13D6 /* SGTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AC27517E212BE061003B7C6A /* SGKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC275182212BE061003B7C6A /* SGKVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGKVOUITests.m; sourceTree = "<group>"; };
 		AC275184212BE061003B7C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC40846C2464109C003E13D6 /* SGTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGTools.h; sourceTree = "<group>"; };
+		AC40846D2464109C003E13D6 /* SGTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		AC275152212BE05E003B7C6A = {
 			isa = PBXGroup;
 			children = (
+				AC40846B24641081003E13D6 /* Lib */,
 				AC27515D212BE05E003B7C6A /* SGKVO */,
 				AC275176212BE061003B7C6A /* SGKVOTests */,
 				AC275181212BE061003B7C6A /* SGKVOUITests */,
@@ -130,6 +134,15 @@
 				AC275184212BE061003B7C6A /* Info.plist */,
 			);
 			path = SGKVOUITests;
+			sourceTree = "<group>";
+		};
+		AC40846B24641081003E13D6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AC40846C2464109C003E13D6 /* SGTools.h */,
+				AC40846D2464109C003E13D6 /* SGTools.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				AC275163212BE05E003B7C6A /* ViewController.m in Sources */,
 				AC27516E212BE061003B7C6A /* main.m in Sources */,
 				AC275160212BE05E003B7C6A /* AppDelegate.m in Sources */,
+				AC40846E2464109C003E13D6 /* SGTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
